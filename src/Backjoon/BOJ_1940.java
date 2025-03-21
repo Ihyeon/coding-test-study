@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// 투 포인트 이동 원칙
+// 투 포인터 이동 원칙
 // A[i] + A[j] > M: j--;
 // A[i] + A[j] < M: i++;
 // A[i] + A[j] == M: i++; j--; count++;

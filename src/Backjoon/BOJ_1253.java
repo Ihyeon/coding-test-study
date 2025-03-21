@@ -1,6 +1,6 @@
 package Backjoon;
 
-// 💛 '좋은 수' 구하기
+// 💛 투 포인터 알고리즘
 
 import java.io.BufferedReader;
 import java.io.IOException;
