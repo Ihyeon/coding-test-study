@@ -21,7 +21,6 @@ public class BOJ_11003 {
         int M = Integer.parseInt(st.nextToken()); // 슬라이딩 윈도우의 개수
 
         int[] arr = new int[N]; // 주어진 수의 배열
-        int[] newArr = new int[N]; // 최솟값의 배열
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
