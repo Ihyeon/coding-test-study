@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.math;
 
 /**
  * Gaussian Elimination (가우스 소거법)
@@ -19,6 +19,7 @@ public class GaussianElimination {
         for (int i = 0; i < N; i++) {
 
             // 0. Partial Pivoting (부분 피벗팅) - 피벗이 0이거나 너무 작으면 아래 행과 교환
+            // 수치적 안정성을 위해, 피벗 열에서 절댓값이 가장 큰 행을 선택
             int maxRow = i;
             for (int k = i + 1; k < N; k++) {
                 if (Math.abs(A[k][i]) > Math.abs(A[maxRow][i])) {

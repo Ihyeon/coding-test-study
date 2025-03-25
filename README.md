@@ -6,7 +6,11 @@
 ```bash
 📦 coding-test-study
  ┣ 📂 src                    
- ┃ ┣ 📂 Algorithms          
+ ┃ ┣ 📂 Algorithms    
+ ┃ ┃ ┣ 📂 bruteforce
+ ┃ ┃ ┣ 📂 dp
+ ┃ ┃ ┣ 📂 math
+ ┃ ┃ ┣ 📂 sort                     
  ┃ ┣ 📂 Baekjoon             
  ┣ ┣ 📂 Books               
  ┃ ┃ ┣ 📂 DoItJava           

@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.bruteforce;
 
 import java.io.*;
 import java.util.StringTokenizer;
