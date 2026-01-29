@@ -1,4 +1,4 @@
-package Backjoon;
+package K_PrefixSum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,15 @@ import java.util.StringTokenizer;
 // D[i][j]의 값을 채우는 구간 합 공식
 //  D[i][j] = D[i][j-1] + D[i-1][j] - D[i-1][j-1] + A[i][j]
 
-public class BOJ_11660 {
+/**
+ * [백준] 구간 합 구하기 5
+ * [Link] https://www.acmicpc.net/problem/11660
+ * @level Sliver 1
+ * @score 1360 ms / 129520 KB
+ * @date 2025-03-12
+ */
+
+public class BOJ_11660_구간합구하기5 {
 
     // Q. 구간 합 구하기 5
     // N×N개의 수가 N×N 크기의 표에 채워져 있다. (x1, y1)부터 (x2, y2)까지 합을 구하는 프로그램을 작성하시오. (x, y)는 x행 y열을 의미한다.

@@ -1,4 +1,4 @@
-package Algorithms.dp;
+package G_DP;
 
 /**
  * Dynamic Programming (동적 계획법) - Fibonacci 예제
@@ -13,7 +13,7 @@ package Algorithms.dp;
  * - 적용 예시: 수열 문제, 경로 개수, 최소 비용 누적 등
  */
 
-public class DP_Fibonacci {
+public class Ex_Fibonacci {
 
     public static int fibonacci(int N) {
         if (N <= 1) return N;

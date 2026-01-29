@@ -1,4 +1,4 @@
-package Algorithms.math;
+package L_Math;
 
 /**
  * Gaussian Elimination (가우스 소거법)
@@ -9,7 +9,7 @@ package Algorithms.math;
  * - 적용 예시: 정방행렬 해 구하기, 행렬식 계산, 역행렬 구하기
  */
 
-public class GaussianElimination {
+public class Ex_GaussianElimination {
 
     // 연립방정식을 푸는 메서드
     public static double[] solve(double[][] A, double[] B) {

@@ -1,4 +1,4 @@
-package Algorithms.sort;
+package D_Sort;
 
 /**
  * Counting Sort (카운팅 정렬)
@@ -13,7 +13,7 @@ package Algorithms.sort;
  *   3. 빠르지만 실수, 음수, 범위 큰 경우에는 부적합
  */
 
-public class CountingSort {
+public class Ex_CountingSort {
 
     public static int[] sort(int[] input, int max) {
         int[] count = new int[max + 1]; // 0부터 max까지의 카운트 배열

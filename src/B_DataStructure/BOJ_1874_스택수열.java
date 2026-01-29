@@ -1,11 +1,21 @@
-package Backjoon;
+package B_DataStructure;
 
 // 스택
 
-import java.io.*;
+/**
+ * [백준] 스택 수열
+ * [Link] https://www.acmicpc.net/problem/1874
+ * @level Silver 2
+ * @score 312 ms / 26868 KB
+ * @date 2025-03-21
+ */
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class BOJ_1874 {
+public class BOJ_1874_스택수열 {
     
     public static void main(String[] args) throws IOException {
 

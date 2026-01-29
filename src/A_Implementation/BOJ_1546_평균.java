@@ -1,11 +1,19 @@
-package Backjoon;
+package A_Implementation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_1546 {
+/**
+ * [백준] 평균
+ * [Link] https://www.acmicpc.net/problem/1546
+ * @level Bronze 1
+ * @score 108 ms / 14360 KB
+ * @date 2025-03-12
+ */
+
+public class BOJ_1546_평균 {
 
     // 세준이는 기말고사를 망쳤다. 세준이는 점수를 조작해서 집에 가져가기로 했다.
     // 일단 세준이는 자기 점수 중에 최댓값을 골랐다. 이 값을 M이라고 한다.

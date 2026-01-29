@@ -1,14 +1,22 @@
-package Backjoon;
+package J_SlidingWindow;
 
-import java.io.*;
-import java.util.Arrays;
-import java.util.Map;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 
 // 슬라이딩 윈도우
 
-public class BOJ_12891 {
+/**
+ * [백준] DNA 비밀번호
+ * [Link] https://www.acmicpc.net/problem/12891
+ * @level Silver 2
+ * @score 280 ms / 20776 KB
+ * @date 2025-03-17
+ */
+
+public class BOJ_12891_DNA비밀번호 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

@@ -1,16 +1,24 @@
-package Backjoon;
+package B_DataStructure;
 
 // 모노토닉 스택 (Monotonic Stack)
 // 원소가 단조(monotonic)하게 정렬된 상태를 유지하는 스택
 // 항상 오름차순이거나 항상 내림차순인 값만 담기도록 스택을 조작하는 방식
 
+/**
+ * [백준] 오큰수
+ * [Link] https://www.acmicpc.net/problem/17298
+ * @level Gold 4
+ * @score 912 ms / 147636 KB
+ * @date 2025-03-22
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Stack;
+import java.util.StringTokenizer;
 
-public class BOJ_17298 {
+public class BOJ_17298_오큰수 {
 
     public static void main(String[] args) throws IOException {
 

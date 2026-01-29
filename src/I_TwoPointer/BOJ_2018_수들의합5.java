@@ -1,6 +1,8 @@
-package Backjoon;
+package I_TwoPointer;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 // 투 포인터
 
@@ -9,7 +11,16 @@ import java.io.*;
 // sum < N: end_index++; sum = sum + end_index;
 // sum == N: end_index++; sum = sum + end_index; count++;
 
-public class BOJ_2018 {
+/**
+ * [백준] 수들의 합 5
+ * [Link] https://www.acmicpc.net/problem/2018
+ * @level Silver 5
+ * @score 160 ms / 14292 KB
+ * @date 2025-03-16
+ */
+
+
+public class BOJ_2018_수들의합5 {
 
     // 연속된 자연수의 합 구하기
 

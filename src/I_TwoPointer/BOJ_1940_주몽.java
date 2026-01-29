@@ -1,4 +1,4 @@
-package Backjoon;
+package I_TwoPointer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,15 @@ import java.util.StringTokenizer;
 // A[i] + A[j] < M: i++;
 // A[i] + A[j] == M: i++; j--; count++;
 
-public class BOJ_1940 {
+/**
+ * [백준] 주몽
+ * [Link] https://www.acmicpc.net/problem/1940
+ * @level Silver 4
+ * @score 168 ms / 16544 KB
+ * @date 2025-03-16
+ */
+
+public class BOJ_1940_주몽 {
 
     public static void main(String[] args) throws IOException {
 

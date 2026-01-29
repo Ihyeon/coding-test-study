@@ -1,16 +1,21 @@
-package Backjoon;
+package D_Sort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.Scanner;
-import java.util.StringTokenizer;
 
-// 💛 버블 정렬
+// 버블 정렬
 
-public class BOJ_2750 {
+/**
+ * [백준] 수 정렬하기
+ * [Link] https://www.acmicpc.net/problem/2750
+ * @level Bronze 2
+ * @score 116 ms / 14444 KB
+ * @date 2025-03-12
+ */
+
+public class BOJ_2750_수정렬하기 {
 
     // N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로그램을 작성하시오.
 

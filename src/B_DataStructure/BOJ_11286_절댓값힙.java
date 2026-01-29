@@ -1,4 +1,4 @@
-package Backjoon;
+package B_DataStructure;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,15 @@ import java.util.PriorityQueue;
 
 // 우선순위 큐: 정렬 기준 적용
 
-public class BOJ_11286 {
+/**
+ * [백준] 절댓값 힙
+ * [Link] https://www.acmicpc.net/problem/11286
+ * @level Silver 1
+ * @score 496 ms / 27032 KB
+ * @date 2025-03-22
+ */
+
+public class BOJ_11286_절댓값힙 {
 
     public static void main(String[] args) throws IOException {
 

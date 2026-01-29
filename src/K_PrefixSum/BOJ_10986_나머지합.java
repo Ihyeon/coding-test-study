@@ -1,16 +1,24 @@
-package Backjoon;
+package K_PrefixSum;
 
 // 모듈러 연산의 성질
 // (A + B) % C = ((A % C) + (B % C)) % C
 // 모듈러 연산은 나머지를 보존하는 성질을 가지고 있다.
 // 즉, 나머지 연산을 수행한 후 더하는 것이나, 더한 후 나머지를 구하는 것이 동일한 결과를 보장한다.
 
+/**
+ * [백준] 나머지 합
+ * [Link] https://www.acmicpc.net/problem/10986
+ * @level Gold 3
+ * @score 452 ms / 120700 KB
+ * @date 2025-03-12
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_10986 {
+public class BOJ_10986_나머지합 {
 
     // 나머지 합 구하기
     // 수 N개 A1, A2, ..., AN이 주어진다. 이때, 연속된 부분 구간의 합이 M으로 나누어 떨어지는 구간의 개수를 구하는 프로그램을 작성하시오.

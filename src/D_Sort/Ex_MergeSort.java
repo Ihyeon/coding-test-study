@@ -1,4 +1,4 @@
-package Algorithms.sort;
+package D_Sort;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ import java.util.Arrays;
  * - 적용 예시: 대용량 정렬, 외부 정렬(디스크 기반), LinkedList 정렬 등
  */
 
-public class MergeSort {
+public class Ex_MergeSort {
 
     // 배열을 분할하여 정렬하는 재귀 메서드
     public static void mergeSort(int[] arr) {
@@ -62,7 +62,7 @@ public class MergeSort {
 
         int[] arr = {38, 27, 43, 3, 9, 82, 10};
 
-        MergeSort.mergeSort(arr);
+        Ex_MergeSort.mergeSort(arr);
         System.out.println("정렬된 배열:" + Arrays.toString(arr));
 
     }

@@ -1,10 +1,18 @@
-package Backjoon;
+package A_Implementation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BOJ_11720 {
+/**
+ * [백준] 숫자의 합
+ * [Link] https://www.acmicpc.net/problem/11720
+ * @level Bronze 4
+ * @score 104 ms / 14188 KB
+ * @date 2025-03-12
+ */
+
+public class BOJ_11720_숫자의합 {
 
     // N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오.
 

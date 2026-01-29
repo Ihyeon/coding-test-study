@@ -1,6 +1,6 @@
-package Backjoon;
+package K_PrefixSum;
 
-// 💛 구간 합 구하기
+// 구간 합 구하기
 // 1. 합 배열 S 정의 - A[0]부터 A[i]까지의 합
 //    S[i] = A[0] + A[1] + A[2] + ... + A[i - 1] + A[i]
 // 2. 합 배열 S를 만드는 공식
@@ -8,10 +8,20 @@ package Backjoon;
 // 3. 구간 합을 구하는 공식
 //    S[j] - S[i-1] = i에서 j까지 구간 합
 
-import java.io.*;
+/**
+ * [백준] 구간 합 구하기 4
+ * [Link] https://www.acmicpc.net/problem/11659
+ * @level Sliver 3
+ * @score 232 ms / 25952 KB
+ * @date 2025-03-12
+ */
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_11659 {
+public class BOJ_11659_구간합구하기4 {
 
     // 수 N개가 주어졌을 때, i번째 수부터 j번째 수까지 합을 구하는 프로그램을 작성하시오.
 

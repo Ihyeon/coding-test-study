@@ -1,12 +1,24 @@
-package Backjoon;
+package J_SlidingWindow;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.StringTokenizer;
 
-// 💛 슬라이딩 윈도우
+// 슬라이딩 윈도우
 // Deque(덱): 양쪽에서 삽입과 삭제가 모두 가능한 자료구조 (Queue + Stack)
 
-public class BOJ_11003 {
+/**
+ * [백준] 최솟값 찾기
+ * [Link] https://www.acmicpc.net/problem/11003
+ * @level Gold 1
+ * @score 1848 ms / 573152 KB
+ * @date 2025-03-21
+ */
+
+public class BOJ_11003_최솟값찾기 {
 
     // 최솟값 찾기 1848ms
 

@@ -1,15 +1,22 @@
-package Backjoon;
+package I_TwoPointer;
 
 // 💛 투 포인터 알고리즘
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BOJ_1253 {
+/**
+ * [백준] 좋다
+ * [Link] https://www.acmicpc.net/problem/1253
+ * @level Gold 4
+ * @score 164 ms / 14844 KB
+ * @date 2025-03-17
+ */
+
+public class BOJ_1253_좋다 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
